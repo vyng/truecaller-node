@@ -1,6 +1,6 @@
 {
   "name": "truecaller",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module which provides an easy way to verify Truecaller user profiles on the server side",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "server"
   ],
   "author": "\"Sahil Narain <sahil.narain@gmail.com> (https://github.com/sahilnarain)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sahilnarain/truecaller/issues"
   },
