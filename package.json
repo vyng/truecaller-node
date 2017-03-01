@@ -1,0 +1,32 @@
+{
+  "name": "truecaller",
+  "version": "1.0.0",
+  "description": "A module which provides an easy way to verify Truecaller user profiles on the server side",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilnarain/truecaller.git"
+  },
+  "keywords": [
+    "truecaller",
+    "profile",
+    "sdk",
+    "verification",
+    "server"
+  ],
+  "author": "\"Sahil Narain <sahil.narain@gmail.com> (https://github.com/sahilnarain)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilnarain/truecaller/issues"
+  },
+  "homepage": "https://github.com/sahilnarain/truecaller#readme",
+  "dependencies": {
+    "async": "^2.1.5",
+    "pemtools": "0.4.7",
+    "request": "^2.79.0",
+    "underscore": "^1.8.3"
+  }
+}
