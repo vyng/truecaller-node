@@ -1,6 +1,6 @@
 {
   "name": "truecaller",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A module which provides an easy way to verify Truecaller user profiles on the server side",
   "main": "index.js",
   "scripts": {

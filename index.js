@@ -78,6 +78,10 @@ function _verifyPayload(profile, callback) {
       return callback(err);
     }
 
+    if (truecallerProfile.decodedPayload.hasOwnProperty('requestTime')) {
+      delete truecallerProfile.decodedPayload.requestTime;
+    }
+
     if (_.isEqual(truecallerProfile.profile, truecallerProfile.decodedPayload)) {
       return callback(null, true);
     } else {
