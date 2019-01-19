@@ -9,7 +9,7 @@
 
 ### Usage
 ```javascript
-const truecaller = require('./index.js');
+const truecaller = require('@vyng/truecaller-node');
 
 // Truecaller profile object from the mobile SDK
 var profile = {
