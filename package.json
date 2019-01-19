@@ -1,14 +1,11 @@
 {
-  "name": "truecaller",
-  "version": "1.1.0",
-  "description": "A module which provides an easy way to verify Truecaller user profiles on the server side",
+  "name": "truecaller-node",
+  "version": "1.0.0",
+  "description": "Node Truecaller profile verification",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sahilnarain/truecaller.git"
+    "url": "git+https://github.com/vyng/truecaller-node.git"
   },
   "keywords": [
     "truecaller",
@@ -17,16 +14,20 @@
     "verification",
     "server"
   ],
-  "author": "\"Sahil Narain <sahil.narain@gmail.com> (https://github.com/sahilnarain)",
+  "author": "\"Kamron Batman <3953314+kamronbatman@noreply.users.github.com> (https://github.com/kamronbatman)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sahilnarain/truecaller/issues"
+    "url": "https://github.com/vyng/truecaller-node/issues"
   },
-  "homepage": "https://github.com/sahilnarain/truecaller#readme",
+  "homepage": "https://github.com/vyng/truecaller-node",
   "dependencies": {
-    "async": "2.1.5",
+    "moize": "5.4.1",
     "pemtools": "0.4.7",
-    "request": "2.79.0",
-    "underscore": "1.8.3"
+    "request": "2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "5.12.1",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0"
   }
 }
