@@ -1,6 +1,6 @@
 {
   "name": "@vyng/truecaller-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node Truecaller profile verification",
   "main": "index.js",
   "repository": {
