@@ -5,7 +5,7 @@
 * NodeJS >= 8
 
 ### Installation
-`npm install truecaller-node`
+`npm install @vyng/truecaller-node`
 
 ### Usage
 ```javascript
