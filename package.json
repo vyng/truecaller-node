@@ -1,6 +1,6 @@
 {
   "name": "@vyng/truecaller-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node Truecaller profile verification",
   "main": "index.js",
   "repository": {
@@ -21,14 +21,14 @@
   },
   "homepage": "https://github.com/vyng/truecaller-node",
   "dependencies": {
-    "moize": "5.4.1",
+    "moize": "5.4.4",
     "pemtools": "0.4.7",
     "request": "2.88.0"
   },
   "devDependencies": {
-    "eslint": "5.12.1",
+    "eslint": "5.16.0",
     "eslint-config-airbnb-base": "13.1.0",
-    "eslint-plugin-import": "2.14.0"
+    "eslint-plugin-import": "2.17.2"
   },
   "directories": {
     "lib": "lib"
